@@ -13,6 +13,10 @@
     margin: 0;
 }
 
+body {
+    line-height: 1.5;
+    font-style: serif;
+}
 /* h1 {
     font-family: "norseBold", serif;
 } */
@@ -20,4 +24,8 @@
 .background {
     height: 100vh;
     width: auto;
+}
+
+.container {
+    display: flex;
 }

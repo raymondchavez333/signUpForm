@@ -29,3 +29,11 @@ body {
 .container {
     display: flex;
 }
+
+input {
+    display: block;
+}
+
+.forms {
+    display: flex;
+}

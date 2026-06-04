@@ -32,6 +32,8 @@ body {
 
 input {
     display: block;
+    border: #E5E7EB solid;
+    border-radius: 3px;
 }
 
 .forms {
@@ -43,4 +45,8 @@ button {
     background-color: #596D48;
     border: 0px;
     border-radius: 3px;
+}
+
+input:invalid{ 
+    border-color: red;
 }

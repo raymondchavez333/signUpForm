@@ -59,11 +59,6 @@ input:focus {
     position: relative;
 } */
 
-
-.background {
-    z-index: -1;
-}
-
 .odin {
     position: absolute;
     left: 50px;

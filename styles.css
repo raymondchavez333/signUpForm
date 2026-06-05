@@ -10,7 +10,7 @@
 
 * {
     box-sizing: border-box;
-    
+   margin: 0;
 }
 
 body {
@@ -32,17 +32,22 @@ input {
     display: block;
     border: #E5E7EB solid;
     border-radius: 3px;
+    width: 220px;
 }
 
 .forms {
     display: flex;
+    gap: 50px;
 }
 
 button {
+    font-weight: bold;
     color: white;
     background-color: #596D48;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
 }
 
 input:invalid{ 
@@ -70,6 +75,7 @@ input:focus {
     position: absolute;
     color: #E5E7EB;
     left: 180px;
+    top: 110px;
     font-size: 15vh;
 }
 
@@ -80,4 +86,48 @@ input:focus {
     height: 20vh;
     width: 495px;
     opacity: 0.44;
+}
+
+.description {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form.right {
+    margin-top: 60px;
+    /* margin-left: 50px; */
+    padding-left: 50px;
+}
+
+span {
+    color: #596D48;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.mask1, .mask2 {
+    background-color: #888888;
+    opacity: .05;
+    position:absolute;
+    height: 33vh;
+    width: 100vw;
+}
+
+
+.mask2 {
+    height: 25vh;
+    top: 560px;
+    width: 100vw;
 }

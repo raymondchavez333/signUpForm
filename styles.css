@@ -10,16 +10,14 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
+    
 }
 
 body {
     line-height: 1.5;
     font-style: serif;
+    margin: 0;
 }
-/* h1 {
-    font-family: "norseBold", serif;
-} */
 
 .background {
     height: 100vh;
@@ -55,12 +53,31 @@ input:focus {
     box-shadow: 5px 5px #888888;
 }
 
-/* .container > .left{
+.container > .left{
     position: relative;
-} */
+}
 
 .odin {
     position: absolute;
+    height: 20vh;
+    width: auto;
     left: 50px;
+    top: 120px;
 }
 
+.textOdin {
+    font-family: "norseBold", serif;
+    position: absolute;
+    color: #E5E7EB;
+    left: 180px;
+    font-size: 15vh;
+}
+
+.mask {
+    position: absolute;
+    top: 120px;
+    background-color: black;
+    height: 20vh;
+    width: 495px;
+    opacity: 0.44;
+}
